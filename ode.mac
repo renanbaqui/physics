@@ -1,0 +1,7 @@
+eq:'diff(y,x) = y / x;
+
+ode2(eq, y, x);
+
+sol: icl(%, x= 1, y= 1);
+
+plot2d(rhs (sol), [x, -10, 10], [y, -10, 10]);
