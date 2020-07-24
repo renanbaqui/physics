@@ -1,7 +1,9 @@
-eq:'diff(y,x) = y / x;
+// maxima programming language code
 
-ode2(eq, y, x);
+eq:'diff(y,x) = y / x;    // conventional writing equivalent form: dy / dx = y / x
 
-sol: icl(%, x= 1, y= 1);
+ode2(eq, y, x);           // computes a solution
 
-plot2d(rhs (sol), [x, -10, 10], [y, -10, 10]);
+sol: icl(%, x= 1, y= 1);  // selects the solution that passes through point (1, 1)
+
+plot2d(rhs (sol), [x, -10, 10], [y, -10, 10]);    // drawing the solution
