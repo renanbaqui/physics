@@ -1,4 +1,4 @@
-# Physics
+# Physics [![](https://badgen.net/badge/color/green/green)](https://github.com)
 
 Physics is a student project to find an ordinary differential equation (ODE) solution and plot it using the Maxima software and its own programming language.
 
