@@ -4,7 +4,7 @@ Physics is a student project to find an ordinary differential equation (ODE) sol
 
 ## Installation
 
-Install [Maxima](http://maxima.sourceforge.net/), paste the source code and execute.
+Install [Maxima](http://maxima.sourceforge.net/) and [Scilab](https://www.scilab.org/), paste the source codes and execute.
 
 ## Contributing
 Pull requests are welcome.
